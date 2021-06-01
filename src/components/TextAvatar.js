@@ -18,6 +18,7 @@ const TextAvatar = (props) => {
     marginTop: -(size / 20),
     height: size,
     width: size,
+    borderRadius: size * 0.5,
   };
 
   return (

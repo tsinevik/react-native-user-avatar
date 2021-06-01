@@ -7,7 +7,7 @@ import {
   TextAvatar,
   ImageAvatar,
   CustomAvatar,
-} from './components/'; ;
+} from './components/';
 import {
   fetchImage,
   getContainerStyle,
@@ -52,7 +52,7 @@ const UserAvatar = (props) => {
       });
       return () => controller.abort();
     }
-  }, []);
+  }, [src, component]);
 
   return (
     <View style={[
